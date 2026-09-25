@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/realestateapi",
   "title": "Realestateapi",
   "description": "RealEstateAPI MCP — property search, detail, and skip-trace (realestateapi.com)",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/realestateapi",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-realestateapi",
