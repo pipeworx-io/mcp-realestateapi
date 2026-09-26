@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-realestateapi",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "RealEstateAPI MCP — property search, detail, and skip-trace (realestateapi.com)",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-f81afb202d1a385cb9f7116fc253621562cafb8914b41c7cddd80c06c2a5a8e3",
-    "sourceCommit": "00c836ddeaecbdd581dcfb0fb1842efea104006e"
+    "sourceHash": "v1-ca5799df76903d42c25498054477082c4a1ddc8cc0fc6cac4e601b9f080ee7ea",
+    "sourceCommit": "6fe8fb3e01138dfc4ebe7d5c246503aab9278d06"
   }
 }
