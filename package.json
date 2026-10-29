@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-realestateapi",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "RealEstateAPI MCP — property search, detail, and skip-trace (realestateapi.com)",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-realestateapi": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "realestateapi"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-realestateapi.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/realestateapi",
   "pipeworx": {
-    "sourceHash": "v1-ca5799df76903d42c25498054477082c4a1ddc8cc0fc6cac4e601b9f080ee7ea",
-    "sourceCommit": "6fe8fb3e01138dfc4ebe7d5c246503aab9278d06"
+    "mode": "gateway",
+    "slug": "realestateapi",
+    "gatewaySlug": "realestateapi",
+    "sourceHash": "v1-845e3da6029dfa558abaa1c0a5826012776a8288f5e782ca97e0024c809c24b4",
+    "sourceCommit": "6bae4cfa7b6a73bbe014dc8820a19c80c842b21e"
   }
 }
